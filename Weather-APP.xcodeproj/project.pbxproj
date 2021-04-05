@@ -30,6 +30,7 @@
 		F4D7E5F9261B21FF00E087F9 /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E5F8261B21FF00E087F9 /* MenuHeaderView.swift */; };
 		F4D7E5FD261B284F00E087F9 /* CityNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E5FC261B284F00E087F9 /* CityNameView.swift */; };
 		F4D7E600261B340500E087F9 /* TodayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E5FF261B340500E087F9 /* TodayWeatherView.swift */; };
+		F4D7E603261B3F4000E087F9 /* HourlyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E602261B3F4000E087F9 /* HourlyWeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		F4D7E5F8261B21FF00E087F9 /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
 		F4D7E5FC261B284F00E087F9 /* CityNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameView.swift; sourceTree = "<group>"; };
 		F4D7E5FF261B340500E087F9 /* TodayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherView.swift; sourceTree = "<group>"; };
+		F4D7E602261B3F4000E087F9 /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				F4D7E5F8261B21FF00E087F9 /* MenuHeaderView.swift */,
 				F4D7E5FC261B284F00E087F9 /* CityNameView.swift */,
 				F4D7E5FF261B340500E087F9 /* TodayWeatherView.swift */,
+				F4D7E602261B3F4000E087F9 /* HourlyWeatherView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D7E603261B3F4000E087F9 /* HourlyWeatherView.swift in Sources */,
 				F4D7E5D12619BBCB00E087F9 /* WeatherDetails.swift in Sources */,
 				F4D7E5DF2619D65D00E087F9 /* CityViewViewModel.swift in Sources */,
 				F4D7E5FD261B284F00E087F9 /* CityNameView.swift in Sources */,
