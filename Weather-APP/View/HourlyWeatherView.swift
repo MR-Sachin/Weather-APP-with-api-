@@ -37,7 +37,7 @@ private func getHourlyView(hour: String, image: Image, temp: String) -> some Vie
     }
     .foregroundColor(.white)
     .padding()
-    .background(RoundedRectangle(cornerRadius: 5).fill(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)), Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0))]), startPoint: .topLeading, endPoint: .bottomTrailing)))
+    .background(RoundedRectangle(cornerRadius: 5).fill(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.5411764706, green: 0.7607843137, blue: 0.9764705882, alpha: 1)), Color(#colorLiteral(red: 0.4078431373, green: 0.5333333333, blue: 0.937254902, alpha: 1))]), startPoint: .topLeading, endPoint: .bottomTrailing)))
     .shadow(color: Color.white.opacity(0.1), radius: 2, x: -2, y: -2)
     .shadow(color: Color.black.opacity(0.2), radius: 2, x: 2, y: 2)
 }
