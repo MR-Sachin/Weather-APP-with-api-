@@ -28,6 +28,7 @@
 		F4D7E5F5261B1F5900E087F9 /* day-shower-rains.json in Resources */ = {isa = PBXBuildFile; fileRef = F4D7E5F0261B1F5900E087F9 /* day-shower-rains.json */; };
 		F4D7E5F6261B1F5900E087F9 /* day-scattered-clouds.json in Resources */ = {isa = PBXBuildFile; fileRef = F4D7E5F1261B1F5900E087F9 /* day-scattered-clouds.json */; };
 		F4D7E5F9261B21FF00E087F9 /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E5F8261B21FF00E087F9 /* MenuHeaderView.swift */; };
+		F4D7E5FD261B284F00E087F9 /* CityNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E5FC261B284F00E087F9 /* CityNameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		F4D7E5F0261B1F5900E087F9 /* day-shower-rains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "day-shower-rains.json"; sourceTree = "<group>"; };
 		F4D7E5F1261B1F5900E087F9 /* day-scattered-clouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "day-scattered-clouds.json"; sourceTree = "<group>"; };
 		F4D7E5F8261B21FF00E087F9 /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
+		F4D7E5FC261B284F00E087F9 /* CityNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				F4D7E5E5261B133C00E087F9 /* LottieView.swift */,
 				F4D7E5F8261B21FF00E087F9 /* MenuHeaderView.swift */,
+				F4D7E5FC261B284F00E087F9 /* CityNameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				F4D7E5D12619BBCB00E087F9 /* WeatherDetails.swift in Sources */,
 				F4D7E5DF2619D65D00E087F9 /* CityViewViewModel.swift in Sources */,
+				F4D7E5FD261B284F00E087F9 /* CityNameView.swift in Sources */,
 				F4D7E5C7261992BC00E087F9 /* Api+Extension.swift in Sources */,
 				F4D7E5B226198E5D00E087F9 /* ContentView.swift in Sources */,
 				F4D7E5CB26199AC700E087F9 /* NetworkManager.swift in Sources */,
